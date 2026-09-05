@@ -1,5 +1,5 @@
-![Screenshot](assets/screenshot1.png)
-![Screenshot](assets/screenshot2.png)
+![Screenshot](screenshot1.png)
+![Screenshot](screenshot2.png)
 
 # How to Use my Splitgate Map Loader
 
@@ -57,4 +57,4 @@ Click the **MUTE** button next to Launch Game, top right.
 That's pretty much it! Enjoy playing the thousands of community maps again!
 **Youtube Channel** - https://www.youtube.com/@CallOfXGamer
 
-![Screenshot](assets/programlogo.png)
+![Screenshot](programlogo.png)
