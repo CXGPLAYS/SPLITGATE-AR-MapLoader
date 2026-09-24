@@ -69,7 +69,7 @@ On first launch, the loader tries to detect your Splitgate account's OwnerId fro
 
 ## Credits
 
-- Community map backup linked in the Import tab: [NotFakeAdam's Splitgate2ForgeBackup](https://github.com/Splitgate/Splitgate2ForgeBackup)
+- Community map backup linked in the Import tab: [Splitgate Community Maps](https://splitgate-architects.github.io/Splitgate-CommunityMaps/), credit to NotFakeAdam and CorellanStoma.
 
 ## Disclaimer
 
