@@ -5,15 +5,19 @@
 
 A desktop tool for managing custom **Splitgate: Arena Reloaded** maps — import community-made maps into your local CloudSave folder so they show up in-game, browse and manage the maps you already have, and launch the game, all from one window.
 
+> [!NOTE]
+> **This tool was developed with the assistance of Artificial Intelligence (AI).**
+> AI was used to help with parts of the development process, including programming assistance, troubleshooting, suggestions, and/or improvements. The final tool, its implementation, and any modifications were reviewed and put together by me.
+
 ---
 
 ## Features
 
 ### Import Map
-Drop a map folder in (containing a `World.cf1047` file and a cover `.jpg`) and the loader packages it up and registers it in your game's manifest.
+Drop a map .bin or folder in (containing a `World.cf1047` file and a cover `.jpg`) and the loader packages it up and registers it in your game's manifest.
 
-- **Drag-and-drop** — drag a map folder straight from File Explorer onto the window. Drop **one** folder and it fills in the form for you to review, exactly like Browse Folder... does. Drop **two or more** folders at once and it imports all of them automatically, no button press needed — name/author for each are pulled from that folder's `README.md` or author file, falling back to the folder name and your last-used author. Locked until your OwnerId is established (see below).
-- **Folder auto-detect** — point it at a folder and it finds the `.cf1047`, the cover image, and an optional `README.md` automatically. If your `README.md` follows the format:
+- **Drag-and-drop** — drag a map .bin or folder straight from File Explorer onto the window. Drop **one** folder and it fills in the form for you to review, exactly like Browse Folder... does. Drop **two or more** folders at once and it imports all of them automatically, no button press needed — name/author for each are pulled from that folder's `.md`, falling back to the folder name. Locked until your OwnerId is established (see below).
+- **Folder auto-detect** — point it at a folder and it finds the `.cf1047`, the cover image, and an optional `.md` automatically. If your `.md` follows the format:
   ```
   ## Map Name
   ##### Author: Author Name
@@ -71,10 +75,6 @@ On first launch, the loader tries to detect your Splitgate account's OwnerId fro
 ## Disclaimer
 
 This is an unofficial, fan-made tool and isn't affiliated with or endorsed by 1047 Games. Use at your own risk — always keep a backup of your `CloudSaveManifest.json` if you're precious about your existing maps.
-
-Plus, **this tool was developed with the assistance of Artificial Intelligence (AI).**
-
-AI was used to help with parts of the development process, including programming assistance, troubleshooting, suggestions, and/or improvements. The final tool, its implementation, and any modifications were reviewed and put together by the developer.
 
 That's pretty much it! Enjoy using this tool!
 **Youtube Channel** - https://www.youtube.com/@CallOfXGamer
